@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  headers {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom-color 0.2s ease-in-out;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    border-bottom-color: #333;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image:
+        url('https://res.cloudinary.com/ddximhdei/image/upload/v1678797687/alumni-site-banner-image-2021-modified-for-web_qj5tlc.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .cta {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .cta:hover {
+    background-color: #444;
+  }
+  
+  /* Features Section Styles */
+  .features {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    max-width: 360px;
+    margin-bottom: 40px;
+  }
+  
+  .feature i {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .feature p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Testimonial Section Styles */
+  .testimonial {
+    background-color: #333;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  blockquote {
+    
+    font-size: 24px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  cite {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
